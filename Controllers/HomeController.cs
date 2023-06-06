@@ -23,6 +23,21 @@ namespace Asignacion2FogueoEnASP.NET.Controllers
             return View();
         }
 
+        public IActionResult POO()
+        {
+            return View();
+        }
+
+        public IActionResult ASPNET()
+        {
+            return View();
+        }
+
+        public IActionResult Info()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
